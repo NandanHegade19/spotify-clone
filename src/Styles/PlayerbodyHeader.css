@@ -1,0 +1,31 @@
+.playerbodyheader{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.playerbodyheader__left {
+    background-color: white;
+    color: gray;
+    border-radius: 30px;
+    min-width: 70px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    flex: 0.5;
+}
+
+.playerbodyheader__left > input {
+    border: none;
+    width: 100%;
+}
+
+.playerbodyheader__right {
+    display: flex;
+    align-items: center;
+
+}
+
+.playerbodyheader__right > h4 {
+    margin-left: 10px;
+}

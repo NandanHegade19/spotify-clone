@@ -1,0 +1,32 @@
+.playerbodysongrow {
+    margin-left: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    color: white;
+}
+.playerbodysongrow:hover {
+    cursor: pointer;
+    background-color: black;
+    opacity: 0.8;
+}
+.playerbodysongrow__info {
+    margin-left: 20px;
+}
+
+.playerbodysongrow__info > h1{
+    font-size: 16px;
+}
+
+.playerbodysongrow__info > p {
+    font-size: 14px;
+    margin-top: 3px;
+    color: gray;
+}
+
+.playerbodysongrow__albumimg {
+    height: 40px;
+    width: 40px;
+    
+}
