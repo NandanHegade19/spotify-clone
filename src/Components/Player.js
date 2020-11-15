@@ -8,7 +8,7 @@ function Player({spotifyapi}) {
     return (
         <div className = "player">
            <div className = "player__main">
-               <PlayerSidebar/>
+               {/*<PlayerSidebar/>*/}
                <Playerbody spotifyapi = {spotifyapi}/>
            </div>
            <div className = "player__controls">

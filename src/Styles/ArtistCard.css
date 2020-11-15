@@ -1,0 +1,10 @@
+.cards{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.cardsImg {
+  object-fit: contain;
+  height: 160px;
+  width: 160px;
+}

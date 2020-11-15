@@ -1,0 +1,43 @@
+.searchpage{
+  background-color: #111111;
+  padding-bottom: 0;
+  color: #ffffff;
+}
+
+.searchpage > h2 {
+  margin-left: 20px;
+  margin-bottom: 10px;
+
+}
+
+.all_cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.cardsImgBig{
+  object-fit: contain;
+  height: 200px;
+  width: 360px;
+ 
+}
+.cardsImgBigRoot{
+  height: 200px;
+  width: 360px;
+  margin: 20px;
+}
+.playerbodyheader__left {
+  background-color: white;
+  color: gray;
+  border-radius: 30px;
+  min-width: 70px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 30%;
+  margin: 20px;
+}
+
+.playerbodyheader__left > input {
+  border: none;
+  width: 100%;
+}

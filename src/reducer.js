@@ -8,7 +8,7 @@ export const initialState = {
 
 //from dispatch fn, we set action data here.
 const reducer = (state, action) => {
-    console.log("action:->>", action);
+    
     switch(action.type){
         case 'SET_USER':
             return{

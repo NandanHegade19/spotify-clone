@@ -3,7 +3,6 @@
     flex: 0.2;
     background-color: #040404;
     color: white;
-    height: 100vh;
     min-width: 230px;
     padding-left: 10px;
     padding-right: 10px;
@@ -25,4 +24,7 @@
     border: 1px solid #282828;
     width: 90%;
     margin: 10px auto;
+}
+.link {
+    text-decoration: none !important;
 }
